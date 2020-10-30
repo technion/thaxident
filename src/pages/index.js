@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
+import lastthax from "../images/lastthax.png"
 
 function IndexPage() {
   return (
@@ -13,27 +13,17 @@ function IndexPage() {
       />
 
       <section className="text-center">
-        <img
-          alt="Cat and human sitting on a couch"
+        <img alt="Last Thax"
           className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
+          src={lastthax}
         />
 
         <h2 className="inline-block p-3 mb-4 text-2xl font-bold bg-yellow-400">
-          Hey there! Welcome to your first Gatsby site.
+          It has been 0 days since the last Thaxident.
         </h2>
 
         <p className="leading-loose">
-          This is a barebones starter for Gatsby styled using{` `}
-          <a
-            className="font-bold text-gray-900 no-underline"
-            href="https://tailwindcss.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tailwind CSS
-          </a>
-          , a utility-first CSS framework.
+          One day this number will be higher.
         </p>
       </section>
     </Layout>

@@ -14,16 +14,16 @@ function IndexPage() {
 
       <section className="text-center">
         <img alt="Last Thax"
-          className="block w-1/2 mx-auto mb-8"
+          className="block mx-auto mb-8"
           src={lastthax}
         />
 
         <h2 className="inline-block p-3 mb-4 text-2xl font-bold bg-yellow-400">
-          It has been 0 days since the last Thaxident.
+          There were no thaxidents today..
         </h2>
 
         <p className="leading-loose">
-          One day this number will be higher.
+          Just a #1 Sapper user.
         </p>
       </section>
     </Layout>
